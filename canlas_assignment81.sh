@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 #install webserver using this command, needed for apache, we will use package manager called yum
 yum install -y httpd
