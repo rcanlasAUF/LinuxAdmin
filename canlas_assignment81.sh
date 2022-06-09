@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 #install webserver using this command, needed for apache, we will use package manager called yum
 yum install -y httpd
@@ -32,9 +32,7 @@ yum install -y php php-mcrypt php-cli php-gd php-curl php-mysql php-ldap php-zip
 #restart the webserver to apply the changes above.
 systemctl restart httpd
 
-#to install the the software helper known as MariaDB package so that our components can communicate with eachother.
-
-#to install the the software helper known as MariaDB package so that our components can communicate with eachother.
+#to install the software helper known as MariaDB package so that our components can communicate with eachother.
 yum install -y mariadb-server mariadb
 
 #after installing, you need to start mariadb with this command.
