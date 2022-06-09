@@ -109,7 +109,7 @@ echo "Restarting HTTPD"
 systemctl restart httpd.service
 echo "#############################################"
 echo "#                                           #"
-echo "#  	SALAMAT PO SA LAHAT SIR JAI!!         #"
+echo "#  	SALAMAT PO SA LAHAT SIR JAI!!           #"
 echo "#                                           #"
 echo "#############################################"
 
